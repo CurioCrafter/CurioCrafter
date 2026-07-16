@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="440" viewBox="0 0 1400 440" role="img" aria-labelledby="title description">
+  <title id="title">CurioCrafter — Andrew Rainsberger</title>
+  <desc id="description">Game systems, Blender tools, and interactive worlds. I build the tool, the world, and the proof it works.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131d" />
+      <stop offset="0.55" stop-color="#0b202a" />
+      <stop offset="1" stop-color="#10323a" />
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7de0d2" />
+      <stop offset="1" stop-color="#f3a84b" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#39bfae" stop-opacity="0.25" />
+      <stop offset="1" stop-color="#39bfae" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#9cded4" stroke-opacity="0.065" />
+    </pattern>
+    <clipPath id="rightField"><path d="M850 0H1400V440H760C845 350 870 240 850 0Z" /></clipPath>
+  </defs>
+  <rect width="1400" height="440" rx="24" fill="url(#background)" />
+  <rect width="1400" height="440" rx="24" fill="url(#grid)" />
+  <ellipse cx="1110" cy="225" rx="410" ry="330" fill="url(#glow)" />
+  <g clip-path="url(#rightField)" fill="none" stroke-linecap="round">
+    <path d="M804 413C897 366 870 285 948 249C1027 212 1018 111 1122 101C1236 90 1264 19 1424 26" stroke="#78d5c9" stroke-opacity="0.22" stroke-width="2" />
+    <path d="M764 375C858 332 839 258 920 217C1007 173 994 82 1105 67C1215 53 1281 -11 1422 4" stroke="#78d5c9" stroke-opacity="0.14" stroke-width="2" />
+    <path d="M835 451C933 393 905 318 989 282C1086 240 1089 147 1195 128C1302 109 1341 62 1433 61" stroke="#78d5c9" stroke-opacity="0.34" stroke-width="2" />
+    <path d="M908 454C988 412 979 348 1044 325C1144 290 1151 217 1257 194C1325 179 1376 148 1438 139" stroke="#78d5c9" stroke-opacity="0.18" stroke-width="2" />
+    <path d="M770 437C870 392 848 302 930 266C1023 225 1022 130 1127 115C1235 99 1288 39 1426 42" stroke="url(#signal)" stroke-width="3" stroke-dasharray="8 13">
+      <animate attributeName="stroke-dashoffset" values="0;-84" dur="7s" repeatCount="indefinite" />
+    </path>
+    <g stroke="#f3a84b" stroke-opacity="0.72">
+      <circle cx="930" cy="266" r="6" fill="#0d252d" stroke-width="2" />
+      <circle cx="1127" cy="115" r="6" fill="#0d252d" stroke-width="2" />
+      <path d="M930 250V222M914 266H886M1127 99V71M1111 115H1083" stroke-width="1.5" />
+    </g>
+  </g>
+  <g transform="translate(86 74)">
+    <rect width="58" height="5" rx="2.5" fill="#f3a84b" />
+    <text x="0" y="45" fill="#98b5b7" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17" letter-spacing="4">ANDREW RAINSBERGER / INDEPENDENT BUILDER</text>
+    <text x="-3" y="139" fill="#f4f1e8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="750" letter-spacing="-3">CurioCrafter</text>
+    <rect x="470" y="83" width="5" height="65" rx="2" fill="#7de0d2">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.46;0.95;1" dur="1.35s" repeatCount="indefinite" />
+    </rect>
+    <text x="1" y="190" fill="#7de0d2" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="600" letter-spacing="3">GAME SYSTEMS · BLENDER TOOLS · INTERACTIVE WORLDS</text>
+    <text x="1" y="248" fill="#d4dedb" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25">I build the tool, the world, and the proof it works.</text>
+    <g transform="translate(1 298)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="2">
+      <text fill="#f3a84b">BUILD</text><text x="70" fill="#52747a">/</text><text x="92" fill="#d4dedb">TEST</text><text x="151" fill="#52747a">/</text><text x="173" fill="#d4dedb">REFINE</text>
+    </g>
+  </g>
+  <g transform="translate(1262 362)" fill="none" stroke="#7de0d2" stroke-width="2">
+    <path d="M0 26V0H26" /><path d="M9 17V9H17" stroke="#f3a84b" />
+  </g>
+</svg>
