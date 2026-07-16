@@ -43,9 +43,11 @@ What matters to me:
 
 ### [CurioMesh](https://github.com/CurioCrafter/CurioMesh) — practical quad remeshing for Blender
 
-<a href="https://github.com/CurioCrafter/CurioMesh">
-  <img align="right" src="./assets/curiomesh-remesh-output.png" alt="CurioMesh quad-dominant remesh output in Blender" width="42%" />
-</a>
+<p align="center">
+  <a href="https://github.com/CurioCrafter/CurioMesh">
+    <img src="./assets/curiomesh-remesh-output.png" alt="CurioMesh quad-dominant remesh output in Blender" width="62%" />
+  </a>
+</p>
 
 A Blender 4.3+ add-on with a production QuadriFlow path and an experimental standalone quad-dominant engine. It preserves the things artists care about—shape, features, materials, and UVs—while reporting useful quality metrics instead of hiding the result behind one button.
 
@@ -56,13 +58,13 @@ A Blender 4.3+ add-on with a production QuadriFlow path and an experimental stan
 
 [Repository and installation →](https://github.com/CurioCrafter/CurioMesh)
 
-<br clear="right" />
-
 ### [CodexForWorkflow](https://github.com/CurioCrafter/CodexForWorkflow) — human-approved desktop automation
 
-<a href="https://github.com/CurioCrafter/CodexForWorkflow">
-  <img align="left" src="./assets/codexforworkflow-command-center.png" alt="CodexForWorkflow Windows command center interface" width="48%" />
-</a>
+<p align="center">
+  <a href="https://github.com/CurioCrafter/CodexForWorkflow">
+    <img src="./assets/codexforworkflow-command-center.png" alt="CodexForWorkflow Windows command center interface" width="100%" />
+  </a>
+</p>
 
 A Windows command center for guided screen observation and isolated browser automation. The interesting problem is not just making automation work—it is making every step visible, stoppable, and appropriately gated.
 
@@ -72,8 +74,6 @@ A Windows command center for guided screen observation and isolated browser auto
 - Local, loopback-only bridge with per-session authorization
 
 [Repository, releases, and safety model →](https://github.com/CurioCrafter/CodexForWorkflow)
-
-<br clear="left" />
 
 ---
 
