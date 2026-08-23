@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.svg" alt="Andrew Rainsberger - Game Developer and 3D Technical Artist" width="100%" />
+  <img src="./assets/profile-hero-current.svg" alt="Andrew Rainsberger - Game Developer and 3D Technical Artist" width="100%" />
 </p>
 
 <p align="center">
