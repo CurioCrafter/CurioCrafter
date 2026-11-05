@@ -21,7 +21,7 @@ The game's source is private. Footage and details are on the [portfolio](https:/
 
 - **[Sector War](https://curiocrafter.github.io/play/sector-war.html)**: real-time space strategy in the browser, with online multiplayer for up to eight players on a deterministic engine and 81 automated tests. Play it in your browser.
 - **[Music Visualizer](https://github.com/CurioCrafter/music-visualizer)**: ten GPU shader worlds that react to the kick, snare, hi-hats, tempo and drop. Rust and wgpu in the Windows tray, and the same shaders in the browser.
-- **[CurioMesh](https://github.com/CurioCrafter/CurioMesh)**: a Blender remesher that keeps materials and UVs intact.
+- **[CurioMesh](https://github.com/CurioCrafter/CurioMesh)**: free, open-source automatic retopology for Blender. Turns dense meshes and photogrammetry scans into all-quad meshes, keeping materials and UVs.
 - **[Topology Transitions](https://github.com/CurioCrafter/Topology-Transitions)**: a Blender add-on for guided all-quad edge-loop reductions and expansions, with a hole and manifold checker.
 - **[VRBlender](https://curiocrafter.github.io/#vrblender)**: Blender 5.1 inside PC VR (OpenXR). Draw boxes, spheres and Boolean cutters with the controller triggers.
 
