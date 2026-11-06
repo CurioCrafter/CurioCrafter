@@ -1,40 +1,19 @@
-![Andrew Rainsberger: Game Developer and 3D Technical Artist. Shipwreck Discovery, Steam and Meta Quest. Godot, OpenXR, Blender.](assets/banner.png)
-
 # Andrew Rainsberger
 
-Game Developer & 3D Technical Artist at AquaticXR, and a credited developer on [Shipwreck Discovery](https://store.steampowered.com/app/3583270/Shipwreck_Discovery/), a VR diving game in Early Access on Steam and Meta Quest.
+**Tools & Pipeline Engineer for 3D and VR.** Blender Python and Rust tools, Godot and OpenXR. Credited developer on [Shipwreck Discovery](https://store.steampowered.com/app/3583270/Shipwreck_Discovery/) (Steam, Meta Quest) at AquaticXR.
 
-**[Portfolio](https://curiocrafter.github.io/)** · [Resume (PDF)](https://curiocrafter.github.io/Andrew_Rainsberger_Game_Developer_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/andrew-rainsberger-2b9b721b1/) · andrewrainsberger@gmail.com
+**[Portfolio](https://curiocrafter.github.io/)** · [Resume (PDF)](https://curiocrafter.github.io/Andrew_Rainsberger_Tools_Engineer_Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/andrew-rainsberger-2b9b721b1/) · andrewrainsberger@gmail.com
 
-## Shipwreck Discovery
+## Projects
 
-A VR diving game set on real wrecks sunk as artificial reefs off Destin, Florida (Godot 4, OpenXR). I work on it full-time at AquaticXR:
+- **[CurioMesh](https://github.com/CurioCrafter/CurioMesh)** ([write-up](https://curiocrafter.github.io/curiomesh.html)): free, open-source (GPLv3) automatic retopology add-on for Blender 3.6 to 5.2 on Windows, Linux and macOS. 46 stars, 17 releases, about 279 tests. A Rust core cut a 1.26M-face scan from 47 minutes to about 5, and CI checks the Rust code against the Python reference. Example: 79,042 faces to 24,222 quads.
+- **[Shipwreck Discovery](https://curiocrafter.github.io/#shipwreck)** (AquaticXR, Godot 4 / OpenXR, Steam and Meta Quest): coral growth, planting and collision systems; retopology, UVs and PBR to GLB for Quest; 37 seafloor species sharing one limb shader; VR fixes with regression tests. Source is private.
+- **Lionfish Reef Heroes** (AquaticXR, team of three): out on [Google Play](https://play.google.com/store/apps/details?id=com.aquaticxr.lionfishreefheroes) and the [App Store](https://apps.apple.com/us/app/lionfish-reef-heroes/id6819904425). One Godot 4.5 project builds desktop, Android and iPhone, with automated phone builds, server-verified store purchases and store listings in 20+ languages.
 
-- Coral growth, planting, placement and collision systems in Godot, and the wildlife balance around them.
-- Retopology, UVs and PBR baking for coral growth stages and large wreck assets, delivered as Godot-ready GLB files that hold up on Quest.
-- 37 animated seafloor species for the experimental branch, each placed by its real Gulf of Mexico habitat.
-- VR interaction fixes with regression tests, plus the studio's trailers and shorts.
-
-The game's source is private. Footage and details are on the [portfolio](https://curiocrafter.github.io/#shipwreck).
-
-## Selected projects
-
-- **[Sector War](https://curiocrafter.github.io/play/sector-war.html)**: real-time space strategy in the browser, with online multiplayer for up to eight players on a deterministic engine and 81 automated tests. Play it in your browser.
-- **[Music Visualizer](https://github.com/CurioCrafter/music-visualizer)**: ten GPU shader worlds that react to the kick, snare, hi-hats, tempo and drop. Rust and wgpu in the Windows tray, and the same shaders in the browser.
-- **[CurioMesh](https://github.com/CurioCrafter/CurioMesh)**: free, open-source automatic retopology for Blender. Turns dense meshes and photogrammetry scans into all-quad meshes, keeping materials and UVs.
-- **[Topology Transitions](https://github.com/CurioCrafter/Topology-Transitions)**: a Blender add-on for guided all-quad edge-loop reductions and expansions, with a hole and manifold checker.
-- **[Clayspace](https://curiocrafter.github.io/#clayspace)**: Blender 5.1 inside PC VR (OpenXR). Draw boxes, spheres and Boolean cutters with the controller triggers.
+Also: [Topology-Transitions](https://github.com/CurioCrafter/Topology-Transitions) (Blender edge-loop add-on, 14 releases) · [Clayspace](https://curiocrafter.github.io/#clayspace) (Blender in PC VR) · [Deltawave](https://github.com/CurioCrafter/Deltawave) (C++20 music visualizer) · [universal-destructible](https://github.com/CurioCrafter/universal-destructible) (Godot 4.6 fracture add-on) · [music-visualizer](https://github.com/CurioCrafter/music-visualizer) (Rust + wgpu)
 
 ## How I work
 
-I build with AI coding agents and say so plainly: Claude Opus 5.5 on my current work, ChatGPT Codex on earlier projects. I set the direction, review the code and test everything in the engine and in the headset.
+AI coding agents (Claude, Codex) write most of the code; I spec, review, test and measure it. The commit history shows it.
 
-## Toolkit
-
-Godot 4 · GDScript · OpenXR · Blender and its Python API · retopology, UVs and PBR baking · Python · TypeScript · Three.js · WebGL · WebGPU · Rust · C++ · Git
-
-## Also
-
-I run CurioCrafter on YouTube with my family: 94.5 million views and 88,000 subscribers (October 2026). Before games I trained as an electrician and served a season on a Job Corps wildland firefighting crew.
-
-Based in Joplin, Missouri. Open to gameplay, VR and technical art roles: remote, hybrid or on-site.
+Based in Joplin, Missouri. Open to tools, pipeline and gameplay engineering roles: remote, hybrid or on-site.
